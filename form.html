@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Peserta</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <form method="GET" action="detail_informasi.html">
+
+        <label for="name"> Nama:
+    </label><br>
+        <input type="text" id="name" name="Nama"><br>
+
+        <label>Asal Kampus :</label><br>
+        <input type="text" name="asal kampus"><br><br>
+
+        <label>Jenis kelamin:</label><br>
+        <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+        <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label><br><br>
+
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" />
+        </p>
+
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+
+        </p>
+        <p>
+            <label for="cf">Category:</label><br>
+            <input type="radio" id="newbie" name="cf" value="newbie">
+            <label for="newbie">Newbie</label><br>
+            <input type="radio" id="Master" name="cf" value="master">
+            <label for="master">Master</label><br>
+
+
+            <input type="reset" name="reset" />
+            <input type="submit" name="submit ">
+    </form>
+</body>
+
+</html>

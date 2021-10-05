@@ -1,0 +1,25 @@
+body {
+    background-image: url(assets/img1.jpg);
+    background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1 {
+    color: rgb(250, 58, 10);
+}
+
+td {
+    border: 1px solid black;
+    background-color: rgb(50, 221, 34);
+    padding: 10px;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(8, 83, 133);
+    color: white;
+    padding: 10px;
+}
